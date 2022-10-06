@@ -20,12 +20,12 @@ jobs: # Những công việc dev làm thường ngày: lấy code, build, chạy
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Check-out repository # Lấy code từ kho thảy vào máy ảo của GitHub chuẩn bị build ở bước sau
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
-      - name: Set up JDK 11 
-        uses: actions/setup-java@v3 # Khai báo cần dùng JDK để build
+      - name: Set up JDK 18 
+        uses: actions/setup-java@v2 # Khai báo cần dùng JDK để build
         with:
-          java-version: '11' # Khai báo sử dụng phiên bản JDK 18 để build
+          java-version: '18' # Khai báo sử dụng phiên bản JDK 18 để build
           distribution: 'temurin'
      
       - name: Build project with Ant
