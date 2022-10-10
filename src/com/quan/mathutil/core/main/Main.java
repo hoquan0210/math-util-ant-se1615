@@ -1,8 +1,8 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package com.quan.mathutil.main;
+package com.quan.mathutil.core.main;
 
 import com.quan.mathutil.core.MathUtil;
 
@@ -66,3 +66,4 @@ public class Main {
 //- XANH: HÀM ĐÚNG; ĐỎ: HÀM SAI (so sáng EXPECTED vs. ACTUAL)
 //- TEST AUTOMATION; KĨ THUẬT HIỆN ĐẠI HƠN, ĐỠ DÙNG SỨC ĐỂ LUẬN KẾT QUẢ
 //ĐÒI HỎI CODE NHIỀU HƠN 1 CHÚT
+
